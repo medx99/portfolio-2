@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+
+}
+
+header{
+    background-color: antiquewhite;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    
+    
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8em;
+    font-weight: 700;
+    
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 31px;
+    transition: 0.4s;
+
+}
+
+.navigation a:hover{
+    color: red;
+}
+
+.logo-img{
+    width: 50px;
+    margin-right: -720px;
+    align-items: center;
+}
+
+section{
+    padding: 100px 200px;
+
+ }
+
+ .home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../imgs/bg-home.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ }
+ .home h2{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+ }
+
+ .home h2 span{
+    display: inline-block;
+    margin-top: 11px;
+    color: rgb(221, 135, 214);
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.home h3{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.project-btn{
+    background-color: rgb(221, 135, 214) ;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    padding: 0.9375em 2.1875em;
+    margin-bottom: 40px;
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.6s ease;
+}
+
+.project-btn:hover{
+    background-color: rgb(231, 63, 217);
+    transform: scale(1.05);
+}
+
+.social-icons a{
+    color: aliceblue;
+    font-size: 2.5em;
+    padding-right: 30px;
+    transition: 0.5s ease;
+    display: inline-block;
+
+}
+
+.social-icons a:hover{
+    color: rgb(210, 103, 236);
+    
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background-color: antiquewhite;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 16px;
+    transition: 0.7s ease;
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(228, 130, 215);
+
+}
+
+.icon{
+    font-size: 8em;
+    text-align: center;
+}
+
+.info h3{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.info p{
+    text-align: center;
+}
+
+.projects{
+    background-color: aquamarine;
+
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card{
+    background-color: white;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+
+}
+
+.project-card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+.project-card:hover .project-img{
+    opacity: 0.9;
+
+}
+
+.project-img img{
+    width: 100%;
+
+}
+
+.project-info{
+    padding: 1em;
+}
+
+
+.project-catg{
+    font-size: 0.8em;
+    color: black;
+
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+
+.learn-more{
+    text-decoration: none;
+    transition: 0.7s ease;
+
+}
+
+.learn-more:hover{
+    color: red;
+}
+
+.contact .icon{
+    font-size: 4.5em;
+
+}
+
+.contact .info p{
+    font-size: 1.4em;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: antiquewhite;
+}
+
+.footer .social-icons{
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+#services{
+    background-image: url(../imgs/bg-service.jpg);
+    background-size: cover;
+    
+    
+}
+.cards .title{
+    color: white;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+#projects{
+    background-image: url(../imgs/project-bg.jpg);
+    background-size: cover;
+    
+
+}
+
+.projects .title{
+    text-transform: uppercase;
+    font-size: 3em;
+    color: white;
+    margin-top: -100px;
+}
+
+.contact{
+    background-image: url(../imgs/contact-bg.jpg);
+    background-size: cover;
+    
+}
+
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .home h2{
+        font-size: 1em;
+    }
+
+    .home h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .home h2{
+        font-size: 0.8em;
+    }
+
+    .home h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
